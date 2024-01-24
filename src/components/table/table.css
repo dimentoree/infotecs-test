@@ -1,0 +1,59 @@
+.table {
+    width: 100%;
+    margin: 1rem;
+    font: normal normal 400 16px/24px 'Poppins', sans-serif;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table__header_row {
+    text-align: left;
+    color: var(--white);
+    background: var(--emerald);
+}
+
+.table__header_cell {
+    padding: 10px 15px;
+}
+
+.table__body_cell {
+    padding: 10px 15px;
+}
+
+.table__body_cell:nth-child(1),
+.table__body_cell:nth-child(2) {
+    width: 15%
+}
+
+.table__body_cell:nth-child(3) {
+    width: 60%;
+}
+
+.table__body_cell:nth-child(4) {
+    width: 10%
+}
+
+.table__body_row {
+    height: 75px;
+    border-bottom: 1px solid var(--gainsborough);
+}
+
+.table__body_row:hover {
+    color: var(--emerald);
+}
+
+.table__body_row:nth-child(even) {
+    background: var(--smoky-white);
+}
+
+.table__body_row:last-child {
+    border-bottom: 2px solid var(--emerald);
+}
+
+.table__body_cell_about {
+    margin-bottom: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}

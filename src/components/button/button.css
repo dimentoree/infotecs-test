@@ -1,0 +1,31 @@
+.button {
+    max-height: 40px;
+    padding: 10px;
+    font: normal normal 400 16px/20px 'Poppins', sans-serif;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button__edit {
+    color: var(--white);
+    background: var(--emerald);
+    border: 1px solid var(--emerald);
+}
+
+.button__edit:hover {
+    background: var(--bright-bluish-green);
+    border: 1px solid var(--bright-bluish-green);
+}
+
+.button__alternate {
+    color: var(--signal-black);
+    background: var(--gainsborough);
+}
+
+.button__alternate:hover {
+    background: var(--light-telegray);
+}
