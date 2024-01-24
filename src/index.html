@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infotecs Test</title>
+</head>
+
+<body>
+    <div class="page">
+        <div class="page__left_content">
+            <div class="buttons_container">
+                <button class="button button__hide button__alternate">Скрыть все колонки</button></th>
+            </div>
+            <table class="table">
+                <thead class="table__header">
+                    <tr class="table__header_row">
+                        <th class="table__header_cell">Имя</th>
+                        <th class="table__header_cell">Фамилия</th>
+                        <th class="table__header_cell">Описание</th>
+                        <th class="table__header_cell">Цвет глаз</th>
+                    </tr>
+                </thead>
+                <tbody class="table__body"></tbody>
+            </table>
+        </div>
+        <div class="page__right_content">
+            <form action="" class="form" style="display: none;">
+                <div class="content">
+                    <fieldset class="form__fields">
+                        <label class="form__label" for="firstName">Имя</label>
+                        <input class="form__input" id="firstName" name="firstName" type="text" placeholder="Имя">
+
+                        <label class="form__label" for="lastName">Фамилия</label>
+                        <input class="form__input" id="lastName" name="lastName" type="text" placeholder="Фамилия">
+
+                        <label class="form__label" for="about">Описание</label>
+                        <textarea class="form__textarea" id="about" name="about" cols="30" rows="5"
+                            placeholder="Описание"></textarea>
+
+                        <label class="form__label" for="eyeColor">Цвет глаз</label>
+                        <input class="form__input" id="eyeColor" name="eyeColor" type="text" placeholder="Цвет глаз">
+                    </fieldset>
+
+                    <fieldset class="form__buttons">
+                        <button class="button button__edit" type="button">Редактировать</button>
+                        <button class="button button__cancel button__alternate">Отмена</button>
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

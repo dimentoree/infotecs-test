@@ -1,0 +1,21 @@
+@import '../fonts/fonts.css';
+
+@import '../../components/page/page.css';
+@import '../../components/table/table.css';
+@import '../../components/pagination/pagination.css';
+@import '../../components/form/form.css';
+@import '../../components/button/button.css';
+
+:root {
+    --white: #FFFFFF;
+    --emerald: #009879;
+    --bright-bluish-green: #03866C;
+    --gainsborough: #DDDDDD;
+    --smoky-white: #F3F3F3;
+    --signal-black: #333333;
+    --light-telegray: #CCCCCC;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}

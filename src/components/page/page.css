@@ -1,0 +1,22 @@
+.page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page__left_content {
+    width: 50%;
+}
+
+.buttons_container {
+    padding: 0;
+    margin: 1rem;
+    display: flex;
+    justify-content: center
+}
+
+.page__right_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
