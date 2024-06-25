@@ -21,6 +21,10 @@
     border: 1px solid var(--bright-bluish-green);
 }
 
+.button__edit:active {
+	background: var(--emerald);
+}
+
 .button__alternate {
     color: var(--signal-black);
     background: var(--gainsborough);
